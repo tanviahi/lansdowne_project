@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+  }
+  .bg{
+    /* The image used */
+    background-image: url("hill.jpg");
+    /* Full height */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chr {
+    display: flex;
+    justify-content: center;            /* Center horizontally */
+    align-items: center;                 /* Center vertically */
+    height: 100vh;                      /* Full viewport height */
+    color: rgb(255, 3, 3);
+    font-weight: 1000px;
+}
+.orgi{
+    background-color: rgba(219, 164, 91, 0.856);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.picture{
+    padding: 10px 0;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture-img {
+    width: 50px;
+    border-radius: 10px;
+  }
+  /* Footer */
+footer {
+    text-align: center;
+    background-color: #2bee35;
+    padding: 10px 0;
+  }
+  
+  /* 🎄 */
